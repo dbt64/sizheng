@@ -49,6 +49,12 @@ const tableData = ref([
           <el-table-column prop="time" label="时间" width="180" />
           <el-table-column prop="name" label="名称" />
         </el-table>
+        <el-pagination
+          background
+          layout="prev, pager, next"
+          :total="200"
+          color="red"
+        />
       </div>
     </div>
   </div>
