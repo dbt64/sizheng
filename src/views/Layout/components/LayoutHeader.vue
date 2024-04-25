@@ -11,7 +11,7 @@ import { RouterLink } from "vue-router";
       <nav class="logo-list">
         <ul>
           <li><RouterLink to="/">首页</RouterLink></li>
-          <li><RouterLink to="/">首页</RouterLink></li>
+          <li><RouterLink to="/resource">学院资源</RouterLink></li>
           <li><RouterLink to="/case">课程资源</RouterLink></li>
           <li><a href="#">首页</a></li>
           <li><a href="#">首页</a></li>

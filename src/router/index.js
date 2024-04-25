@@ -3,6 +3,7 @@ import Layout from "@/views/Layout/index.vue";
 import Case from "@/views/Case/index.vue";
 import Detail from "@/views/Detail/index.vue";
 import LayoutSetion from "@/views/Layout/components/LayoutSetion.vue";
+import Resource from "@/views/Resource/index.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -21,6 +22,10 @@ const router = createRouter({
         {
           path: "detail",
           component: Detail,
+        },
+        {
+          path: "resource",
+          component: Resource,
         },
       ],
     },
