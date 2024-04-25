@@ -32,7 +32,12 @@ defineProps({
   background-color: #fff;
   .big-title {
     text-align: center;
+    height: 55px;
     font-size: 24px;
+    h3 {
+      height: 100%;
+      line-height: 55px;
+    }
   }
   .small-title {
     display: flex;
@@ -40,8 +45,6 @@ defineProps({
     height: 50px;
     line-height: 50px;
     font-size: 16px;
-    border-radius: 5px;
-    overflow: hidden;
     h4 {
       color: #333;
       font-size: 20px;

@@ -4,28 +4,11 @@
   <div class="cont">
     <div class="kecheng">
       <div class="k-item">
-        <nav class="item-list">
+        <nav v-for="(item, index) in 2" :key="index" class="item-list">
           <ul>
             <span>课程:</span
             >&nbsp;
             <li><a class="active" href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-            <li><a href="#">Java</a></li>
-          </ul>
-          <div class="gd">
-            <a href="#">更多</a>
-          </div>
-        </nav>
-        <nav class="item-list">
-          <ul>
-            <span>课程:</span
-            >&nbsp;
-            <li><a href="#">Java</a></li>
             <li><a href="#">Java</a></li>
             <li><a href="#">Java</a></li>
             <li><a href="#">Java</a></li>

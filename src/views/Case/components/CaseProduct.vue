@@ -16,39 +16,15 @@ let data = ref([
         text1: "lorem ipsum dolor sit amet",
         text2: "Lorem ipsum dolor sit amet.",
       },
-    ],
-  },
-  {
-    title: "专业核心课",
-    subTitle: "传感器",
-    c: [
       {
-        text1: "asdf",
-        text2: "12345",
-      },
-      {
-        text1: "asdfa",
-        text2: "动手12314实践",
+        text1: "lorem ipsum dolor sit amet",
+        text2: "Lorem ipsum dolor sit amet.",
       },
     ],
   },
   {
     title: "专业平台课",
     subTitle: "电子电工",
-    c: [
-      {
-        text1: "创新思维",
-        text2: "动手实践",
-      },
-      {
-        text1: "创新思维",
-        text2: "动手实践",
-      },
-    ],
-  },
-  {
-    title: "专业平台课",
-    subTitle: "物联网",
     c: [
       {
         text1: "创新思维",
@@ -94,7 +70,7 @@ let data = ref([
 .item-cont {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   .items {
     overflow: hidden;
