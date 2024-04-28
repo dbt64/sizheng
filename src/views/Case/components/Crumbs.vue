@@ -2,7 +2,7 @@
 
 <template>
   <div class="cont">
-    <el-breadcrumb separator="/">
+    <el-breadcrumb separator="/" style="margin-top: 20px">
       <el-breadcrumb-item :to="{ path: '/' }"
         ><a href="">首页</a></el-breadcrumb-item
       >

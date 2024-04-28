@@ -10,11 +10,27 @@ import { RouterLink } from "vue-router";
       <h1 class="title">思政资源库</h1>
       <nav class="logo-list">
         <ul>
-          <li><RouterLink to="/">首页</RouterLink></li>
-          <li><RouterLink to="/resource">学院资源</RouterLink></li>
-          <li><RouterLink to="/case">课程资源</RouterLink></li>
-          <li><a href="#">首页</a></li>
-          <li><a href="#">首页</a></li>
+          <li>
+            <RouterLink to="/" exact-active-class="active">首页</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/resource" active-class="active"
+              >专业资源</RouterLink
+            >
+          </li>
+          <li>
+            <RouterLink to="/case" active-class="active">课程资源</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/element" active-class="active"
+              >思政元素</RouterLink
+            >
+          </li>
+          <li>
+            <RouterLink to="/nourish" active-class="active"
+              >人才培养方案</RouterLink
+            >
+          </li>
           <li><a href="#">首页</a></li>
           <li><a href="#">首页</a></li>
         </ul>
@@ -81,6 +97,9 @@ import { RouterLink } from "vue-router";
           &:hover {
             color: red;
           }
+        }
+        .active {
+          color: red;
         }
       }
     }

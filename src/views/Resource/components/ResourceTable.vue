@@ -54,6 +54,7 @@ const tableData = ref([
           layout="prev, pager, next"
           :total="200"
           color="red"
+          style="margin-top: 10px"
         />
       </div>
     </div>
