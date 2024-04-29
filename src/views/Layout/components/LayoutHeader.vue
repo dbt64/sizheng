@@ -31,7 +31,7 @@ import { RouterLink } from "vue-router";
               >人才培养方案</RouterLink
             >
           </li>
-          <li><a href="#">首页</a></li>
+          <li><RouterLink to="/special">思政专题</RouterLink></li>
           <li><a href="#">首页</a></li>
         </ul>
       </nav>

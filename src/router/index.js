@@ -6,6 +6,7 @@ import LayoutSetion from "@/views/Layout/components/LayoutSetion.vue";
 import Resource from "@/views/Resource/index.vue";
 import Element from "@/views/Element/index.vue";
 import Nourish from "@/views/Nourish/index.vue";
+import Special from "@/views/Special/index.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -36,6 +37,10 @@ const router = createRouter({
         {
           path: "nourish",
           component: Nourish,
+        },
+        {
+          path: "special",
+          component: Special,
         },
       ],
     },
