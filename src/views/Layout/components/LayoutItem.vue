@@ -82,26 +82,36 @@
     <div class="laout-item">
       <div class="laout-title">思政专题</div>
       <div class="content">
-        <div class="items">
-          <img src="@/assets/images/总书记与大学生.png" alt="" />
-          <p>总书记与大学生</p>
-        </div>
-        <div class="items">
-          <img src="@/assets/images/科技为民.png" alt="" />
-          <p>科技为民</p>
-        </div>
-        <div class="items">
-          <img src="@/assets/images/百年精神谱系.png" alt="" />
-          <p>百年精神谱系</p>
-        </div>
-        <div class="items">
-          <img src="@/assets/images/数字中国十年成就.png" alt="" />
-          <p>数字中国十年成就</p>
-        </div>
-        <div class="items">
-          <img src="@/assets/images/职业理想和职业道德.png" alt="" />
-          <p>职业理想和职业道德</p>
-        </div>
+        <router-link to="/special">
+          <div class="items">
+            <img src="@/assets/images/总书记与大学生.png" alt="" />
+            <p>总书记与大学生</p>
+          </div>
+        </router-link>
+        <router-link to="/special">
+          <div class="items">
+            <img src="@/assets/images/科技为民.png" alt="" />
+            <p>科技为民</p>
+          </div>
+        </router-link>
+        <router-link to="/special">
+          <div class="items">
+            <img src="@/assets/images/百年精神谱系.png" alt="" />
+            <p>百年精神谱系</p>
+          </div>
+        </router-link>
+        <router-link to="/special">
+          <div class="items">
+            <img src="@/assets/images/数字中国十年成就.png" alt="" />
+            <p>数字中国十年成就</p>
+          </div>
+        </router-link>
+        <router-link to="/special">
+          <div class="items">
+            <img src="@/assets/images/职业理想和职业道德.png" alt="" />
+            <p>职业理想和职业道德</p>
+          </div>
+        </router-link>
       </div>
     </div>
   </div>

@@ -16,16 +16,18 @@ import { RouterLink } from "vue-router";
         </ul>
       </aside>
       <div class="s-r">
-        <div class="items" v-for="(item, index) in 10" :key="index">
-          <img src="@/assets/images/总书记与大学生.png" alt="" />
-          <div class="item">
-            <h3>总书记与大学生阴友们一“立大志、明大德、成大才、担大任</h3>
-            <p>
-              2021年9月。在清华大学建校110周年校庆日来临之际。习近平总书记来到清华大学考察，与师
-              生代表座谈并发言。
-            </p>
+        <router-link to="/detail" v-for="(item, index) in 10" :key="index">
+          <div class="items">
+            <img src="@/assets/images/总书记与大学生.png" alt="" />
+            <div class="item">
+              <h3>总书记与大学生阴友们一“立大志、明大德、成大才、担大任</h3>
+              <p>
+                2021年9月。在清华大学建校110周年校庆日来临之际。习近平总书记来到清华大学考察，与师
+                生代表座谈并发言。
+              </p>
+            </div>
           </div>
-        </div>
+        </router-link>
       </div>
     </div>
   </div>
