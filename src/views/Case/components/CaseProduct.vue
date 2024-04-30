@@ -70,17 +70,21 @@ let data = ref([
 .item-cont {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(3, 500px);
+  justify-content: center;
+  align-content: center;
+  // gap: 30px;
   .items {
     overflow: hidden;
-    height: 320px;
+    // height: 320px;
     background-color: #fff;
     border-radius: 5px;
     transition: all 0.4s;
+    margin: 10px;
     cursor: pointer;
     img {
       width: 100%;
+      object-fit: cover;
     }
     p {
       margin: 10px;
