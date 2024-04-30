@@ -81,7 +81,7 @@ import { RouterLink } from "vue-router";
     color: red;
   }
   .logo-list {
-    margin-left: 100px;
+    margin-left: 10vw;
     width: 500px;
     ul {
       display: flex;

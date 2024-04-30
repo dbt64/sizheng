@@ -19,7 +19,7 @@ import { RouterLink } from "vue-router";
       background
       layout="prev, pager, next"
       :total="1000"
-      style="margin-top: 10px"
+      class="pagination"
     />
   </div>
 </template>
@@ -29,7 +29,7 @@ import { RouterLink } from "vue-router";
   .ele-item {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     .items {
       background-color: #fff;
@@ -41,6 +41,11 @@ import { RouterLink } from "vue-router";
         height: 50px;
       }
     }
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
   }
 }
 </style>

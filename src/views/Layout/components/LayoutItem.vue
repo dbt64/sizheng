@@ -1,13 +1,4 @@
-<script setup>
-/* let obj = [
-  {
-    title: "思政资源",
-  },
-  {
-    title: "思政元素",
-  },
-]; */
-</script>
+<script setup></script>
 
 <template>
   <div class="cont">
